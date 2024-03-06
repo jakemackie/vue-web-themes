@@ -6,7 +6,7 @@
 /* Defining theme selectors */
 @layer base {
     /* Default, system preference */
-    :root {
+    :root[data-theme='system'] {
         --background-color: 0deg 0% 100%;
         --text-color: 0deg 0% 50%;
         --accent-color: 0deg 0% 85%;
@@ -64,6 +64,33 @@
         --text-color: 142deg, 82%, 84%;
         --accent-color: 200deg, 30%, 30%;
         --border-color: 200deg, 16%, 25%;
+        color-scheme: dark;
+    }
+
+    /* Dracula Theme */
+    :root[data-theme='dracula'] {
+        --background-color: 280deg, 5%, 10%;
+        --text-color: 280deg, 50%, 90%;
+        --accent-color: 280deg, 10%, 20%;
+        --border-color: 280deg, 5%, 15%;
+        color-scheme: dark;
+    }
+
+    /* Solarized Light Theme */
+    :root[data-theme='solarized-light'] {
+        --background-color: 60deg, 100%, 98%;
+        --text-color: 60deg, 10%, 20%;
+        --accent-color: 60deg, 100%, 90%;
+        --border-color: 60deg, 100%, 85%;
+        color-scheme: light;
+    }
+
+    /* Solarized Dark Theme */
+    :root[data-theme='solarized-dark'] {
+        --background-color: 220deg, 60%, 10%;
+        --text-color: 220deg, 25%, 78%;
+        --accent-color: 220deg, 60%, 20%;
+        --border-color: 220deg, 60%, 15%;
         color-scheme: dark;
     }
 }

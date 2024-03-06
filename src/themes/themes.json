@@ -1,5 +1,9 @@
 [
     {
+        "name": "System (default)",
+        "value": "system"
+    },
+    {
         "name": "Light",
         "value": "light"
     },
@@ -18,5 +22,17 @@
     {
         "name": "Monokai",
         "value": "monokai"
+    },
+    {
+        "name": "Dracula",
+        "value": "dracula"
+    },
+    {
+        "name": "Soliarized Light",
+        "value": "solarized-light"
+    },
+    {
+        "name": "Soliarized Dark",
+        "value": "solarized-dark"
     }
 ]

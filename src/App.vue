@@ -1,5 +1,3 @@
-<!-- Entry point -->
-
 <template>
     <main class="min-h-screen bg-background-color transition-all duration-200">
         <!-- Page section 1 -->
@@ -11,18 +9,16 @@
 
         <!-- Page section 2 -->
         <themeContentArea>
-            <div class="*:py-2 text-text-color">
-                <h1 class="text-5xl">Sample Header</h1>
-                <p class="text-xl">Your paragraph text should be readable.</p>
-            </div>
+            <h1 class="text-5xl">Sample Header</h1>
+            <p class="text-xl">Your paragraph text should be readable.</p>
         </themeContentArea>
     </main>
 </template>
 
 <script setup lang="ts">
 import themeSelectorMenu from './components/themeSelectorMenu.vue';
-import themeContentArea from './components/themeContentArea.vue';
 import themeSelectorButton from './components/themeSelectorButton.vue';
+import themeContentArea from './components/themeContentArea.vue';
 
 import themes from './themes/themes.json';
 </script>

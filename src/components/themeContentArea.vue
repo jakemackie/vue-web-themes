@@ -10,7 +10,9 @@
     <div class="hidden md:block">
         <div class="overflow-y-scroll fixed right-0 h-full w-5/6">
             <div class="p-10">
-                <slot></slot>
+                <div class="*:py-2 text-text-color">
+                    <slot></slot>
+                </div>
             </div>
         </div>
     </div>
