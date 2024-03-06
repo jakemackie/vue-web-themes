@@ -1,7 +1,7 @@
 <!-- Entry file -->
 
 <template>
-    <main class="min-h-screen bg-background-color transition-all duration-200">
+    <main class="min-h-screen bg-background-color transition-all duration-200 transform-gpu">
         <themeContentArea>
             <!-- Page content, will change dependant on theme -->
             <div class="space-y-4 text-center md:text-left">
