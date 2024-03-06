@@ -2,3 +2,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Defining theme selectors */
+@layer base {
+    /* Default, system preference */
+    :root {
+        --background-color: 0deg 0% 100%;
+        --text-color: 0deg 0% 50%;
+        --accent-color: 0deg 0% 85%;
+        --border-color: 0deg 0% 70%;
+        color-scheme: light;
+
+        @media (prefers-color-scheme: dark) {
+            --background-color: 0deg 0% 0%;
+            --text-color: 0deg 0% 100%;
+            --accent-color: 0deg 0% 15%;
+            --border-color: 0deg 0% 30%;
+            color-scheme: dark;
+        }
+    }
+
+    /* Light theme */
+    :root[data-theme='light'] {
+        --background-color: 0deg 0% 100%;
+        --text-color: 0deg 0% 20%;
+        --accent-color: 0deg 0% 85%;
+        --border-color: 0deg 0% 70%;
+        color-scheme: light;
+    }
+
+    /* Dark Theme */
+    :root[data-theme='dark'] {
+        --background-color: 0deg 0% 0%;
+        --text-color: 0deg 0% 90%;
+        --accent-color: 0deg 0% 15%;
+        --border-color: 0deg 0% 30%;
+        color-scheme: dark;
+    }
+
+    /* Nord Theme */
+    :root[data-theme='nord'] {
+        --background-color: 220deg, 18%, 18%;
+        --text-color: 197deg, 33%, 100%;
+        --accent-color: 220deg, 25%, 33%;
+        --border-color: 220deg, 22%, 30%;
+        color-scheme: dark;
+    }
+
+    /* One Dark Pro Theme */
+    :root[data-theme='one-dark-pro'] {
+        --background-color: 220deg, 16%, 16%;
+        --text-color: 175deg, 25%, 78%;
+        --accent-color: 220deg, 18%, 24%;
+        --border-color: 220deg, 14%, 30%;
+        color-scheme: dark;
+    }
+
+    /* Monokai Theme */
+    :root[data-theme='monokai'] {
+        --background-color: 200deg, 20%, 20%;
+        --text-color: 142deg, 82%, 84%;
+        --accent-color: 200deg, 30%, 30%;
+        --border-color: 200deg, 16%, 25%;
+        color-scheme: dark;
+    }
+}
