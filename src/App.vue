@@ -4,8 +4,8 @@
     <main class="min-h-screen bg-background-color transition-all duration-200">
         <themeContentArea>
             <!-- Page content, will change dependant on theme -->
-            <div class="px-2 space-y-4 text-center md:text-left">
-                <h1 class="my-4 text-5xl font-semibold text-text-color tracking-wide">Site Header</h1>
+            <div class="space-y-4 text-center md:text-left">
+                <h1 class="text-5xl font-semibold text-text-color tracking-wide">Site Header</h1>
                 <p class="text-xl text-text-color">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam saepe fugiat deserunt aut nobis unde eos cumque fugit at, sed ea ab nesciunt ex. Nostrum repellendus recusandae sapiente illo sunt ad, blanditiis suscipit harum! Optio sapiente doloremque sunt possimus voluptatem ex nulla architecto, alias, soluta sequi facere enim dolorem fugit!
                 </p>

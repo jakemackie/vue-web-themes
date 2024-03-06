@@ -26,5 +26,13 @@
     {
         "name": "Dracula",
         "value": "dracula"
+    },
+    {
+        "name": "Material Light",
+        "value": "material-light"
+    },
+    {
+        "name": "Material Dark",
+        "value": "material-dark"
     }
 ]

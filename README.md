@@ -9,6 +9,14 @@ I wanted to learn vue as an opportunity to deepen my understanding of frontend w
     <img src="./src/assets/showcase.png" style="margin: auto">
 </div>
 
+<div align="center">
+    <img src="./src/assets/showcase_dark.png" style="margin: auto">
+</div>
+
+<div align="center">
+    <img src="./src/assets/showcase_monokai.png" style="margin: auto">
+</div>
+
 > In order to see the outcome of this project, you must set up your own development enviroment.
 
 ## **Clone the repository:**

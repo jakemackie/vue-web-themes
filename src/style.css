@@ -84,4 +84,22 @@
         --border-color: 280deg, 5%, 15%;
         color-scheme: dark;
     }
+
+    /* Material Light Theme */
+    :root[data-theme='material-light'] {
+        --background-color: 255deg, 100%, 100%;
+        --text-color: 0deg, 0%, 0%;
+        --accent-color: 200deg, 55%, 65%;
+        --border-color: 0deg, 0%, 80%;
+        color-scheme: light;
+    }
+
+    /* Material Dark Theme */
+    :root[data-theme='material-dark'] {
+        --background-color: 0deg, 0%, 13%;
+        --text-color: 0deg, 0%, 100%;
+        --accent-color: 200deg, 55%, 65%;
+        --border-color: 0deg, 0%, 30%;
+        color-scheme: dark;
+    }
 }
