@@ -5,6 +5,8 @@ vue-tailwind-themes
 I wanted to learn vue as an opportunity to deepen my understanding of web development, this repository serves as an excuse for me to do just that!
 <br/>
 
+<img align="center" src="./src/assets/showcase.png">
+
 > In order to see the outcome of this project, you must set up your own development enviroment.
 
 ## **Clone the repository:**
