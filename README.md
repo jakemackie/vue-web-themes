@@ -6,15 +6,7 @@ I wanted to learn vue as an opportunity to deepen my understanding of frontend w
 <br/>
 
 <div align="center">
-    <img src="./src/assets/showcase.png" style="margin: auto">
-</div>
-
-<div align="center">
-    <img src="./src/assets/showcase_dark.png" style="margin: auto">
-</div>
-
-<div align="center">
-    <img src="./src/assets/showcase_monokai.png" style="margin: auto">
+    <img src="./src/assets/demo.png" style="margin: auto">
 </div>
 
 <div align="center">
