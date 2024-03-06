@@ -2,7 +2,7 @@
 vue-web-themes
 </h1>
 
-I wanted to learn vue as an opportunity to deepen my understanding of web development, this repository serves as an excuse for me to do just that!
+I wanted to learn vue as an opportunity to deepen my understanding of frontend web development, this repository serves as an excuse for me to do just that!
 <br/>
 
 <div align="center">
