@@ -44,13 +44,13 @@ npm run dev
 `1.`
 
 ```shell
-docker build -t vue-tailwind-themes:latest .
+docker build -t vue-web-themes:latest .
 ```
 
 `2.`
 
 ```shell
-docker run -p 8000:8000 vue-tailwind-themes:latest
+docker run -p 8000:8000 vue-web-themes:latest
 ```
 
 `3.`
