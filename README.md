@@ -38,3 +38,23 @@ npm i
 ```shell
 npm run dev
 ```
+
+## **Want to Dockerise the app?**
+
+`1.`
+
+```shell
+docker build -t vue-tailwind-themes:latest .
+```
+
+`2.`
+
+```shell
+docker run -p 8000:8000 vue-tailwind-themes:latest
+```
+
+`3.`
+
+Visit https://localhost:8000
+
+> Please ensure you have [Docker](https://www.docker.com/) installed.
