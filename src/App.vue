@@ -1,7 +1,7 @@
 <!-- Entry file -->
 
 <template>
-    <main class="min-h-screen bg-background-color transition-all duration-200">
+    <main class="min-h-screen bg-background-color transition-all duration-500">
         <!-- Page section 1 -->
         <themeSelectorMenu>
             <!-- Looping through the array of themes, extracting their values -->
