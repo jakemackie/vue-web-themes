@@ -1,5 +1,5 @@
 <h1 align="center">
-vue-tailwind-themes
+vue-web-themes
 </h1>
 
 I wanted to learn vue as an opportunity to deepen my understanding of web development, this repository serves as an excuse for me to do just that!
@@ -14,10 +14,10 @@ I wanted to learn vue as an opportunity to deepen my understanding of web develo
 ## **Clone the repository:**
 
 ```shell
-git clone https://github.com/jakemackie/vue-tailwind-themes vue-tailwind-themes
+git clone https://github.com/jakemackie/vue-web-themes vue-web-themes
 ```
 
-> change the "vue-tailwind-themes" parameter to a folder name you'd like to save this project to.
+> change the "vue-web-themes" parameter to a folder name you'd like to save this project to.
 
 ## **Install various dependencies:**
 
