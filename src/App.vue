@@ -1,21 +1,25 @@
 <!-- Entry file -->
 
 <template>
-    <main class="min-h-screen bg-background-color transition-all duration-500">
-        <!-- Page section 1 -->
+    <main class="min-h-screen bg-background-color transition-all duration-200">
         <themeContentArea>
             <!-- Page content, will change dependant on theme -->
-            <h1 class="text-5xl text-text-color">Sample Header</h1>
-            <p class="mt-4 text-xl text-text-color">
-                Your paragraph text should be readable.
-            </p>
-            <code class="mt-10 max-w-screen-md text-text-color">{{ themes }}</code>
-        </themeContentArea>
+            <div class="px-2 space-y-4 text-center md:text-left">
+                <h1 class="my-4 text-5xl font-semibold text-text-color tracking-wide">Site Header</h1>
+                <p class="text-xl text-text-color">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam saepe fugiat deserunt aut nobis unde eos cumque fugit at, sed ea ab nesciunt ex. Nostrum repellendus recusandae sapiente illo sunt ad, blanditiis suscipit harum! Optio sapiente doloremque sunt possimus voluptatem ex nulla architecto, alias, soluta sequi facere enim dolorem fugit!
+                </p>
+                <p class="text-xl text-text-color">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem quisquam officiis nostrum repudiandae alias labore eligendi nesciunt earum assumenda sequi?
+                </p>
+                
+                <themeContentBlocks />
 
-        <!-- Page section 2 -->
-        <themeSelectorMenu>
-            <themeSelectorCollectedButtons />
-        </themeSelectorMenu>
+                <themeSelectorMenu>
+                    <themeSelectorCollectedButtons />
+                </themeSelectorMenu>
+            </div>
+        </themeContentArea>
     </main>
 </template>
 
@@ -25,6 +29,5 @@
 import themeSelectorMenu from './components/themeSelectorMenu.vue';
 import themeSelectorCollectedButtons from './components/themeSelectorCollectedButtons.vue';
 import themeContentArea from './components/themeContentArea.vue';
-
-import themes from './themes/themes.json';
+import themeContentBlocks from './components/themeContentBlocks.vue';
 </script>

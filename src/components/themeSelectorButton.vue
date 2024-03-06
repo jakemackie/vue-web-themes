@@ -4,7 +4,7 @@
     <li>
         <button
             :theme="theme"
-            class="w-full px-4 py-2 bg-background-color text-text-color border border-text-color rounded-md"
+            class="w-full h-full p-4 text-xl text-text-color rounded-md border border-border-color"
             @click="
                 {
                     changeTheme(theme);

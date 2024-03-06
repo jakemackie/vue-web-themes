@@ -1,14 +1,23 @@
 /* Tailwind directives */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Default font aross themes */
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 
 /* Defining theme selectors */
 @layer base {
+
+    :root {
+        font-family: "Outfit", sans-serif;
+    }
+
     /* Default, system preference */
     :root[data-theme='system'] {
         --background-color: 0deg 0% 100%;
-        --text-color: 0deg 0% 50%;
+        --text-color: 0deg 0% 0%;
         --accent-color: 0deg 0% 85%;
         --border-color: 0deg 0% 70%;
         color-scheme: light;
@@ -25,7 +34,7 @@
     /* Light theme */
     :root[data-theme='light'] {
         --background-color: 0deg 0% 100%;
-        --text-color: 0deg 0% 50%;
+        --text-color: 0deg 0% 0%;
         --accent-color: 0deg 0% 85%;
         --border-color: 0deg 0% 70%;
         color-scheme: light;
