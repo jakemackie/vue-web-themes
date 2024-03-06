@@ -1,3 +1,5 @@
+<!-- The selector button, uses function(s) from utils to change the theme. -->
+
 <template>
     <div class="w-full bg-accent-color border border-border-color">
         <button
