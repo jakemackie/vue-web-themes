@@ -26,13 +26,5 @@
     {
         "name": "Dracula",
         "value": "dracula"
-    },
-    {
-        "name": "Soliarized Light",
-        "value": "solarized-light"
-    },
-    {
-        "name": "Soliarized Dark",
-        "value": "solarized-dark"
     }
 ]

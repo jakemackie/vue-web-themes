@@ -75,22 +75,4 @@
         --border-color: 280deg, 5%, 15%;
         color-scheme: dark;
     }
-
-    /* Solarized Light Theme */
-    :root[data-theme='solarized-light'] {
-        --background-color: 60deg, 100%, 98%;
-        --text-color: 60deg, 10%, 20%;
-        --accent-color: 60deg, 100%, 90%;
-        --border-color: 60deg, 100%, 85%;
-        color-scheme: light;
-    }
-
-    /* Solarized Dark Theme */
-    :root[data-theme='solarized-dark'] {
-        --background-color: 220deg, 60%, 10%;
-        --text-color: 220deg, 25%, 78%;
-        --accent-color: 220deg, 60%, 20%;
-        --border-color: 220deg, 60%, 15%;
-        color-scheme: dark;
-    }
 }
