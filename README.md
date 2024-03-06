@@ -6,7 +6,7 @@ I wanted to learn vue as an opportunity to deepen my understanding of web develo
 <br/>
 
 <div align="center">
-    <img src="./src/assets/showcase.png" width="75%" style="margin: auto">
+    <img src="./src/assets/showcase.png" style="margin: auto">
 </div>
 
 > In order to see the outcome of this project, you must set up your own development enviroment.
