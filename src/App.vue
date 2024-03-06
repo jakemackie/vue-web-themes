@@ -19,10 +19,13 @@
     </main>
 </template>
 
+<!-- Vue Composition API -->
 <script setup lang="ts">
+// Components
 import themeSelectorMenu from './components/themeSelectorMenu.vue';
 import themeSelectorButton from './components/themeSelectorButton.vue';
 import themeContentArea from './components/themeContentArea.vue';
 
+// Theme data
 import themes from './themes/themes.json';
 </script>

@@ -11,14 +11,18 @@
                 }
             "
         >
+            <!-- Child elements slot into parent -->
+
             <slot></slot>
         </button>
     </div>
 </template>
 
 <script setup lang="ts">
+// Utils
 import changeTheme from '../themes/utils/changeTheme';
 
+// Props
 defineProps({
     theme: {
         type: String,
