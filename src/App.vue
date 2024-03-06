@@ -10,7 +10,7 @@
         <!-- Page section 2 -->
         <themeContentArea>
             <h1 class="text-5xl">Sample Header</h1>
-            <p class="text-xl">Your paragraph text should be readable.</p>
+            <p class="mt-4 text-xl">Your paragraph text should be readable.</p>
         </themeContentArea>
     </main>
 </template>
