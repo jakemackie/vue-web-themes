@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Light",
+        "value": "light"
+    },
+    {
+        "name": "Dark",
+        "value": "dark"
+    },
+    {
+        "name": "Nord",
+        "value": "nord"
+    },
+    {
+        "name": "One Dark Pro",
+        "value": "one-dark-pro"
+    },
+    {
+        "name": "Monokai",
+        "value": "monokai"
+    }
+]
