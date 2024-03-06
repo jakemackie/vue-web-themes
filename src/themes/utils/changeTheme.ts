@@ -6,6 +6,7 @@
 function changeTheme(theme: string) {
     const root = document.documentElement;
     root.setAttribute('data-theme', theme);
+    localStorage.setItem('data-theme', theme);
 }
 
 export default changeTheme;
