@@ -1,10 +1,10 @@
 <!-- The theme selector button, uses function(s) from utils to change the theme. -->
 
 <template>
-    <div class="w-full bg-accent-color border border-border-color">
+    <li>
         <button
             :theme="theme"
-            class="w-full px-8 py-4 text-xl text-text-color"
+            class="w-full px-4 py-2 bg-background-color text-text-color border border-text-color rounded-md"
             @click="
                 {
                     changeTheme(theme);
@@ -15,7 +15,7 @@
 
             <slot></slot>
         </button>
-    </div>
+    </li>
 </template>
 
 <script setup lang="ts">
