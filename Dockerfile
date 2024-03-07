@@ -1,6 +1,9 @@
 # Stage 1: Build Image
 FROM node:18 as BUILD_IMAGE
 
+# Image maintainer (me)
+LABEL maintainer="Jake Mackie jake.wmackie@gmail.com"
+
 # Set the working directory inside the container
 WORKDIR /app/vue-tailwind-themes
 
