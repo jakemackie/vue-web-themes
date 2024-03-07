@@ -71,6 +71,6 @@ docker run -p 8000:8000 vue-web-themes:latest
 
 `3.`
 
-Visit https://localhost:8000
+Visit http://localhost:8000
 
 > Please ensure you have [Docker](https://www.docker.com/) installed.
