@@ -58,14 +58,24 @@ npm run dev
 
 > Please ensure you have [Docker](https://www.docker.com/) installed.
 
-`1.` Pull the image
+
+`1.` Clone the repository
+
+```shell
+git clone https://github.com/jakemackie/vue-web-themes
+```
+
+`2.` Pull the image
 
 ```shell
 docker pull jakemackie/vue-web-themes:latest
 ```
 
-`2.` Run the image
+`3.` Run the image
 
+```shell
+cd vue-web-themes
+```
 ```shell
 docker run -d -p 8000:8000 jakemackie/vue-web-themes:latest
 ```
