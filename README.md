@@ -60,13 +60,13 @@ npm run dev
 `1.` Pull the image
 
 ```shell
-docker pull jakemackie/vue-web-themes
+docker pull jakemackie/vue-web-themes:latest
 ```
 
 `2.` Run the image
 
 ```shell
-docker run -d -p 8000:8000 jakemackie/vue-web-themes
+docker run -d -p 8000:8000 jakemackie/vue-web-themes:latest
 ```
 
 Visit http://localhost:8000
