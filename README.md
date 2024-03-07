@@ -57,19 +57,17 @@ npm run dev
 
 ## **Want to Dockerise the app?**
 
-`1.`
+`1.` Pull the image
 
 ```shell
-docker build -t vue-web-themes:latest .
+docker pull jakemackie/vue-web-themes
 ```
 
-`2.`
+`2.` Run the image
 
 ```shell
-docker run -p 8000:8000 vue-web-themes:latest
+docker run -d -p 8000:8000 jakemackie/vue-web-themes
 ```
-
-`3.`
 
 Visit http://localhost:8000
 
