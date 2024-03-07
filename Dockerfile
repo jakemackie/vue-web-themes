@@ -25,8 +25,8 @@ WORKDIR /app/vue-tailwind-themes
 # Copy the built files from the build image to the production image
 COPY --from=BUILD_IMAGE /app/vue-tailwind-themes/dist/ /app/vue-tailwind-themes/dist/
 
-# Expose port 3000 for the application
-EXPOSE 3000
+# Expose port 8000 for the application
+EXPOSE 8000
 
 # Copy package.json and vite.config.ts to the working directory in the production image
 COPY package.json .
@@ -35,8 +35,8 @@ COPY vite.config.ts .
 # Install TypeScript
 RUN npm install typescript
 
-# Expose port 3000 for the application
-EXPOSE 3000
+# Expose port 8000 for the application
+EXPOSE 8000
 
 # Specify the command to start the application
 CMD ["npm", "run", "preview"]
