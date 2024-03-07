@@ -7,7 +7,6 @@
         <themeContentArea>
             <!-- Page content, will change dependant on theme -->
             <div class="space-y-4 text-center md:text-left">
-
                 <!-- Placeholder text -->
                 <h1 class="text-5xl font-semibold text-text-color tracking-wide">
                     Site Header
