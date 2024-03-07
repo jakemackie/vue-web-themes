@@ -35,9 +35,6 @@ EXPOSE 8000
 COPY package.json .
 COPY vite.config.ts .
 
-# Install TypeScript
-RUN npm install typescript
-
 # Expose port 8000 for the application
 EXPOSE 8000
 
