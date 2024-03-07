@@ -6,10 +6,14 @@
         <meta name="description" content="Vite + Vue + TS" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Prefetching font via Google CDN -->
+        <!-- Preconnect and preload Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" as="style">
+
+        <!-- Load Google Fonts with Font Display Swap -->
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
         
         <title>ThemeSelector</title>
     </head>
