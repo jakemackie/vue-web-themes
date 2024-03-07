@@ -34,5 +34,9 @@
     {
         "name": "Material Dark",
         "value": "material-dark"
+    },
+    {
+        "name": "Gruvbox",
+        "value": "gruvbox"
     }
 ]

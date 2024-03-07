@@ -97,4 +97,13 @@
         --border-color: 0deg, 0%, 30%;
         color-scheme: dark;
     }
+
+    /* Gruvbox Theme */
+    :root[data-theme='gruvbox'] {
+        --background-color: 25deg, 3%, 16%;
+        --text-color: 30deg, 28%, 80%;
+        --accent-color: 60deg, 4%, 20%;
+        --border-color: 85deg, 3%, 26%;
+        color-scheme: dark;
+    }
 }
