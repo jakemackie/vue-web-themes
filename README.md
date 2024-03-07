@@ -37,7 +37,9 @@ git clone https://github.com/jakemackie/vue-web-themes vue-web-themes
 
 > change the "vue-web-themes" parameter to a folder name you'd like to save this project to.
 
-## **Install various dependencies:**
+## **Run Development Build (Node):**
+
+> Please ensure you have [NodeJS](https://nodejs.org/en) installed.
 
 NodeJS
 
@@ -45,15 +47,15 @@ NodeJS
 npm i
 ```
 
-> Please ensure you have [NodeJS](https://nodejs.org/en) installed.
-
 ## **Run the localhost**
 
 ```shell
 npm run dev
 ```
 
-## **Want to Dockerise the app?**
+## **Run Production Build (Docker)**
+
+> Please ensure you have [Docker](https://www.docker.com/) installed.
 
 `1.` Pull the image
 
@@ -68,5 +70,3 @@ docker run -d -p 8000:8000 jakemackie/vue-web-themes:latest
 ```
 
 Visit http://localhost:8000
-
-> Please ensure you have [Docker](https://www.docker.com/) installed.
