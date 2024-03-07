@@ -3,9 +3,6 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Default font aross themes */
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-
 /* Defining theme selectors */
 @layer base {
     :root {
