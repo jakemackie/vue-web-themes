@@ -1,17 +1,15 @@
 /* Tailwind directives */
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
 /* Default font aross themes */
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-
 /* Defining theme selectors */
 @layer base {
-
     :root {
-        font-family: "Outfit", sans-serif;
+        font-family: 'Outfit', sans-serif;
     }
 
     /* Default, system preference */
