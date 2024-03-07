@@ -27,27 +27,28 @@ I wanted to learn vue as an opportunity to deepen my understanding of frontend w
     <img src="./src/assets/lighthouse.png" style="margin: auto">
 </div>
 
-> In order to see the outcome of this project, you must set up your own development enviroment, then build the webpage(s).
-
-## **Clone the repository:**
-
-```shell
-git clone https://github.com/jakemackie/vue-web-themes vue-web-themes
-```
-
-> change the "vue-web-themes" parameter to a folder name you'd like to save this project to.
+> In order to see the outcome of this project, you must set up your own development enviroment or run the production build in a docker container.
 
 ## **Run Development Build (Node):**
 
 > Please ensure you have [NodeJS](https://nodejs.org/en) installed.
 
-NodeJS
+`1.` Clone the repository
 
 ```shell
-npm i
+git clone https://github.com/jakemackie/vue-web-themes
 ```
 
-## **Run the localhost**
+`2.` Install dependencies
+
+```shell
+cd vue-web-themes
+```
+```shell
+npm install
+```
+
+`3.` Start development build
 
 ```shell
 npm run dev
