@@ -6,10 +6,9 @@
 /* Defining theme selectors */
 @layer base {
     :root {
-        font-family: 'Outfit', sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         font-display: swap;
     }
-
     /* Default, system preference */
     :root[data-theme='system'] {
         --background-color: 0deg 0% 100%;
