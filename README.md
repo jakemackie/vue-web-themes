@@ -44,6 +44,7 @@ git clone https://github.com/jakemackie/vue-web-themes
 ```shell
 cd vue-web-themes
 ```
+
 ```shell
 npm install
 ```
@@ -57,7 +58,6 @@ npm run dev
 ## **Run Production Build (Docker)**
 
 > Please ensure you have [Docker](https://www.docker.com/) installed.
-
 
 `1.` Clone the repository
 
@@ -76,8 +76,9 @@ docker pull jakemackie/vue-web-themes:latest
 ```shell
 cd vue-web-themes
 ```
-```shell
-docker run -d -p 8000:8000 jakemackie/vue-web-themes:latest
-```
+
+````shell
+docker run -d -p 8000:8000 jakemackie/vue-web-themes:latest```
 
 Visit http://localhost:8000
+````
