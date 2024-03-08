@@ -33,7 +33,7 @@
                 </themeSelectorMenu>
 
                 <span class="py-10 flex justify-center text-lg text-text-color underline">
-                    <a href="https://github.com/jakemackie/vue-web-themes">Source code</a>
+                    <a href="https://github.com/jakemackie/vue-web-themes" target="_blank">Source code</a>
                 </span>
             </div>
         </themeContentArea>
