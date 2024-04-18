@@ -77,8 +77,8 @@ docker pull jakemackie/vue-web-themes:latest
 cd vue-web-themes
 ```
 
-````shell
-docker run -d -p 8000:8000 jakemackie/vue-web-themes:latest```
+```shell
+docker run -d -p 8000:8000 jakemackie/vue-web-themes:latest
+```
 
 Visit http://localhost:8000
-````
